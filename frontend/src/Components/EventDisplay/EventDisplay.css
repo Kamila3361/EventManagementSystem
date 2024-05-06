@@ -1,0 +1,72 @@
+.eventdisplay {
+    display: flex;
+    background: white; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: 'Arial', sans-serif; 
+}
+
+.eventdisplay-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.eventdisplay-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.eventdisplay-main-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+.eventdisplay-center {
+    flex: 2;
+    padding: 20px;
+}
+
+.eventdisplay-head {
+    text-align: center;
+}
+
+.eventdisplay-description, .eventdisplay-right {
+    margin-top: 20px;
+}
+
+.eventdisplay-right {
+    flex: 1;
+    padding: 20px;
+    background: #f8f8f8; 
+}
+
+.eventdisplay-center h1, h3 {
+    color: #333; 
+}
+
+.eventdisplay-right h3 {
+    color: #333; 
+}
+
+.eventdisplay-right p {
+    color: #666; 
+}
+
+.eventdisplay-center button {
+    background-color: #ff4500; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.eventdisplay-center button:hover {
+    background-color: #e03e00; 
+}

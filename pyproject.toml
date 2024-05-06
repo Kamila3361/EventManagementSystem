@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "eventmanagementsystem"
+version = "0.1.0"
+description = ""
+authors = ["Kamila <tashimovakamila1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.4"
+djangorestframework = "^3.15.1"
+django-cors-headers = "^4.3.1"
+drf-spectacular = "^0.27.2"
+drf-spectacular-sidecar = "^2024.5.1"
+djangorestframework-simplejwt = "^5.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

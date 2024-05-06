@@ -1,0 +1,53 @@
+.seat-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    color: #000; 
+    font-size: 14px;
+}
+
+.seat.selected {
+    background-color: #4CAF50; 
+}
+
+.seat.booked {
+    background-color: #ff4141; 
+}
+
+.book-button {
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;  
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: #555;
+    color: white;
+}
